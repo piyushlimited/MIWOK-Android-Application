@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/remain"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_numbers"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:background="@color/category_numbers">
+    </TextView>
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_family"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:background="@color/category_family">
+    </TextView>
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_colors"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:background="@color/category_colors">
+    </TextView>
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/category_phrases"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:background="@color/category_phrases">
+    </TextView>
+
+</LinearLayout>
